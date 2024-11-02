@@ -38,9 +38,12 @@ Connect the battery pack to the power input of the L298N motor driver and NodeMC
 Use a slide switch to control power to the car.
 Motor Connections
 
+
 Connect the DC motors to the L298N motor driver’s output terminals (OUT1, OUT2 for the left motor, OUT3, OUT4 for the right motor).
 Ensure proper alignment for forward and backward movements.
 NodeMCU to Motor Driver
+![wifi car_bb (1)](https://github.com/user-attachments/assets/3e3a1286-ca61-4f9f-9c51-c14508da92c8)
+
 
 Connect NodeMCU’s GPIO pins to the L298N’s IN1, IN2, IN3, and IN4 for motor direction control.
 For PWM speed control, connect NodeMCU’s PWM-capable GPIO pins to ENA and ENB on the L298N.
